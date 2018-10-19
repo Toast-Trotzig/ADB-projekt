@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\bin\Debug\ADB projekt.exe.config
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\bin\Debug\ADB projekt.exe
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\bin\Debug\ADB projekt.pdb
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB_projekt.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.exe
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.pdb
+C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB_projekt.Form1.resources
