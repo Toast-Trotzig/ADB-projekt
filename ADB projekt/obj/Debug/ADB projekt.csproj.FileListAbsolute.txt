@@ -8,3 +8,13 @@ C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projek
 C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.exe
 C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB projekt.pdb
 C:\Users\Administrator\source\repos\ADB projekt\ADB projekt\obj\Debug\ADB_projekt.Form1.resources
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\bin\Debug\ADB projekt.exe.config
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\bin\Debug\ADB projekt.exe
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\bin\Debug\ADB projekt.pdb
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB projekt.csprojAssemblyReference.cache
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB_projekt.Form1.resources
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB_projekt.Properties.Resources.resources
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB projekt.csproj.GenerateResource.cache
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB projekt.csproj.CoreCompileInputs.cache
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB projekt.exe
+\\uwfpcluster03.uw.lu.se\os3642ov-s$\Documents\GitHub\ADB-projekt\ADB projekt\obj\Debug\ADB projekt.pdb

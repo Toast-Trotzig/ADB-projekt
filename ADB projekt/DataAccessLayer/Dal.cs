@@ -37,6 +37,14 @@ namespace ADB_projekt
             FindEntities("CarCRUD", parameters, grid);
         }
 
+        //Find models of car classtypes
+        public void FindCarModels(string classtype, DataGridView grid)
+        {
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            parameters.Add("@classType", classtype);
+            FindEntities("CarCRUD", parameters, grid);
+        }
+
         public void FindAllCars(DataGridView grid)
         {
             Dictionary<string, object> parameters = new Dictionary<string, object>();

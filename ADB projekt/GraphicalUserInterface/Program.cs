@@ -13,15 +13,7 @@ namespace ADB_projekt
         /// </summary>
         [STAThread]
         static void Main()
-        {
-            Console.WriteLine("BRO HERE I AM");
-            Dal dal = new Dal();
-            Car car = new Car("ABC123", "Class C", "Volvo");
-            //Dictionary<string,object> entity = utils.GetParameters(car);
-
-            //dal.HandleEntity("CarCRUD", entity, "Insert");
-           // dal.HandleEntity("CarCRUD", entity, "Delete");
-           
+        {  
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
