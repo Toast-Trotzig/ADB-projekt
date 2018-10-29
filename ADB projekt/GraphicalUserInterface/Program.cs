@@ -17,15 +17,15 @@ namespace ADB_projekt
             Console.WriteLine("BRO HERE I AM");
             Dal dal = new Dal();
             Car car = new Car("ABC123", "Class C", "Volvo");
-            Dictionary<string,object> entity = Dal.GetParameters(car);
+            //Dictionary<string,object> entity = utils.GetParameters(car);
 
-            Dal.HandleEntity("CarCRUD", entity, "Insert");
-            Dal.HandleEntity("CarCRUD", entity, "Delete");
-            /*
+            //dal.HandleEntity("CarCRUD", entity, "Insert");
+           // dal.HandleEntity("CarCRUD", entity, "Delete");
+           
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            */ 
+            
         }
     }
 }

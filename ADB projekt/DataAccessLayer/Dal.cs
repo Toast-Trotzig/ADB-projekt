@@ -12,20 +12,8 @@ using System.Windows.Forms;
 namespace ADB_projekt
 {
     class Dal {
-
-        public static Dictionary<string, object> GetParameters(object target)
-        {
-            Dictionary<string, object> parameters = new Dictionary<string, object>();
-
-            if (target != null)
-            {
-                foreach(var prop in target.GetType().GetProperties()){
-                    parameters.Add(prop.Name, prop.GetValue(target, null));
-                }
-            }
-            return parameters;
-        }        
-
+        
+        //Insert or Delete entities from database
         public void HandleEntity(string procedure, Dictionary<string, object> dict, string statement)
         {
             using (SqlConnection con = DBsecurity.GetConnection())
@@ -41,6 +29,7 @@ namespace ADB_projekt
             }
         }
 
+        //Find cars in database
         public void FindCar(string regnr, DataGridView grid)
         {
             Dictionary<string, object> parameters = new Dictionary<string, object>();
@@ -48,6 +37,13 @@ namespace ADB_projekt
             FindEntities("CarCRUD", parameters, grid);
         }
 
+        public void FindAllCars(DataGridView grid)
+        {
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            FindEntities("CarCRUD", parameters, grid);
+        }
+
+        //Find customers in database
         public void FindCustomer(int pnr, DataGridView grid)
         {
             Dictionary<string, object> parameters = new Dictionary<string, object>();
@@ -55,6 +51,7 @@ namespace ADB_projekt
             FindEntities("CustomerCRUD", parameters, grid);
         }
 
+        //Find bookings in database
         public void FindBook(string regnr, int pnr, DataGridView grid)
         {
             Dictionary<string, object> parameters = new Dictionary<string, object>();
@@ -63,6 +60,7 @@ namespace ADB_projekt
             FindEntities("BookCRUD", parameters, grid);
         }
 
+        //Find entities in database
         public void FindEntities(string procedure, Dictionary<string, object> parameters, DataGridView grid)
         {
             using (SqlConnection con = DBsecurity.GetConnection())

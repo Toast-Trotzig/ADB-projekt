@@ -45,23 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="Controller.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="Dal.cs" />
-    <Compile Include="DBsecurity.cs" />
-    <Compile Include="Errorhandler.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\Car.cs" />
+    <Compile Include="GraphicalUserInterface\Controller.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="DataAccessLayer\Dal.cs" />
+    <Compile Include="DataAccessLayer\DBsecurity.cs" />
+    <Compile Include="ErrorHandling\Errorhandler.cs" />
+    <Compile Include="GraphicalUserInterface\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="GraphicalUserInterface\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MandatoryFieldException.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ErrorHandling\MandatoryFieldException.cs" />
+    <Compile Include="GraphicalUserInterface\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <Compile Include="Utensils\Utils.cs" />
+    <EmbeddedResource Include="GraphicalUserInterface\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
